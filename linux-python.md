@@ -1,7 +1,7 @@
-#Installing Python
+# Installing Python
 Python2 and Python3 are included in Ubuntu desktop.
 
-#Installing Python package
+# Installing Python package
 Python packages such as numpy can be installed using PIP. It is installed in
 each user's environment, so sudo is not necessary.
 
@@ -9,7 +9,7 @@ each user's environment, so sudo is not necessary.
    $ python3 -m pip install numpy matplotlib 
 ````
 
-#Installing development envrironment for Python
+# Installing development envrironment for Python
 * IDLE (IDLE3): light weight IDE (Integrated develoment environment), recommended for beginners.
 * Pycharm, Eclipse: heavy and feature rich IDE, may be JAVA programmers like these
 * vim or emacs: Many professional programmers prefer either of these editors. Atom is becoming popular these days.
@@ -17,7 +17,7 @@ each user's environment, so sudo is not necessary.
 I would like to recommend IDLE to beginners and VIM to advanced level. VIM or
 emacs is almost mandatory when reading Linux kernel source code.
 
-##Python setup for VIM
+## Python setup for VIM
 * Create (or update) ~/.vimrc to include following lines.  
 ````
     autocmd FileType python setl autoindent

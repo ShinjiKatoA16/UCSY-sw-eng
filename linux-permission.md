@@ -1,4 +1,4 @@
-#Linux(Unix) is a multi-user OS
+# Linux(Unix) is a multi-user OS
 The biggest difference between Linux and Windows is that Linux is a
 multi user OS. Every file of the linux has permission bit which can
 be verified using "ls -l" command.
@@ -10,11 +10,11 @@ read or write.
 In order to check the permission bit of using GUI, click FILE icon
 (application name: nautirus) right-click the file and open property.
 
-#User account management.
+# User account management.
 root and user who are in "sudo" (sudoer) group can create/delete/modify
 user accounts.
 
-#Hands on
+# Hands on
 Create 2 or more user ID, create 1 or more new group. Test if file
 security works as expected or not.
 

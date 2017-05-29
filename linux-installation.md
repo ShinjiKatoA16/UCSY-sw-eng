@@ -1,4 +1,4 @@
-#Download OS installtion file
+# Download OS installtion file
 Download Ubuntu16.04 Desktop iso file. Search web with "Ubuntu download"
 (Memo) There are many distributions of Linux, and each distribution
 may have server version and desktop version.
@@ -7,12 +7,12 @@ softwares and most popular distribution.
 Please try Ubuntu server version (almost minimum configuration) and
 Cent OS which is also popular distribution.
 
-#Burn OS image to USB flash memory
+# Burn OS image to USB flash memory
 Copy the iso file image to usb flash memory using dd command (There is a compatible software for Windows). **Caution !!! BE CARE not to mistake if= and of= options (especially of=) of dd command.**
 
-##Attach usb flash memory to the computer
+## Attach usb flash memory to the computer
 
-##Confirm the device name of the flash memory using df command.
+## Confirm the device name of the flash memory using df command.
 External HDD is mounted at /media, in this case /dev/sdb shall be
 specified as of= parameter. /dev/sdb is a raw device, /dev/sdb1 is
 a first partition of /dev/sdb.
@@ -31,25 +31,26 @@ a first partition of /dev/sdb.
 	/dev/sdb1        1517760 1517760         0 100% /media/kato/usbhdd
 ````
 
-##Execute dd command (copy iso image to flash memory)
+## Execute dd command (copy iso image to flash memory)
+
 ````
 	kato@katoB502E:~/Downloads$ dd if=./Ubuntu16.04-2.iso of=/dev/sdb bs=1M
 ````
 
-#Prepare target machine
+# Prepare target machine
 
-##Preserve Linux installtion partition space
+## Preserve Linux installtion partition space
 If dual-boot with Windows is required back up data,reduce Windows
 HDD space or erase unused partition to preserve space for Linux
 (100GB or more)
 [How to Dual Boot Linux on Your PC](https://www.howtogeek.com/214571/how-to-dual-boot-linux-on-your-pc/)
 
-##Change BIOS setting so that the machine will boot from flash memory.
+## Change BIOS setting so that the machine will boot from flash memory.
 If the HDD is formatted with MBR (without UEFI), do not boot from **UEFI USB Flash**, but **USB Flash**. Linux installation USB assumes that HDD is UEFI when the flash is booted as **UEFI Flash**.
 
-#Boot from flash memory and follow instruction
+# Boot from flash memory and follow instruction
 
-#Update software to current level
+# Update software to current level
 (Memo) apt, aptitude and apt-get are almost identical command.
 Always use apt if system supports it.
 Please try to update as much as possible. Keeping software up to	
@@ -62,7 +63,7 @@ date is a key for security.
 #Customize and install necessary software
 National language support (Burmese), Chromium browser, vim-gtk, idle3, ssh server etc.
 
-#Filesystem Hierarchy Standard
+# Filesystem Hierarchy Standard
 For detail, please search with above keyword.
 ````
 	/home/user-name Each user's home directory
