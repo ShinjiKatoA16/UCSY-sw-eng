@@ -60,7 +60,7 @@ date is a key for security.
     kato@katoB502E:~$ sudo apt update; sudo apt -y upgrade
 ````
 
-#Customize and install necessary software
+# Customize and install necessary software
 National language support (Burmese), Chromium browser, vim-gtk, idle3, ssh server etc.
 
 # Filesystem Hierarchy Standard
