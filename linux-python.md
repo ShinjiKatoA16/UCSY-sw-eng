@@ -28,6 +28,6 @@ emacs is almost mandatory when reading Linux kernel source code.
 
 * Create ~/.pyheader which contains default header
 ````
-	#!/usr/bin/python3
-	#-*- coding: utf-8 -*-
+    #!/usr/bin/python3
+    #-*- coding: utf-8 -*-
 ````
