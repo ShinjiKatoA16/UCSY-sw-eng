@@ -18,7 +18,8 @@ I would like to recommend IDLE to beginners and VIM to advanced level. VIM or
 emacs is almost mandatory when reading Linux kernel source code.
 
 ## Python setup for VIM
-* Create (or update) ~/.vimrc to include following lines.  
+* Create (or update) ~/.vimrc to include following lines. As for .vimrc, there are many samples and "know how" in web sites, please customize as you like.
+
 ````
     autocmd FileType python setl autoindent
     autocmd FileType python setl smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
