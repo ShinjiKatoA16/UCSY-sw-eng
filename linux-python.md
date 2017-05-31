@@ -32,3 +32,9 @@ emacs is almost mandatory when reading Linux kernel source code.
     #!/usr/bin/python3
     #-*- coding: utf-8 -*-
 ````
+
+# Anaconda
+- Can be downloaded from Continuum <https://www.continuum.io/downloads>
+- All-in-One package (library, package management, virtual environment management, IDE(spyder) )
+- Windows/Mac/Linux version are available
+- Package management is done by `conda` instead of `pip`
