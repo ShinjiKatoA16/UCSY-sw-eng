@@ -1,5 +1,5 @@
 # NFS Network File System
-NFS is a simple file sharing method.
+NFS is a simple file sharing method. In the following example, 172.16.22.xx is a IP address, using machine name is better if Name server exists.
 
 ## NFS server
 1. Install nfs-kernel-server. `sudo apt install nfs-kernel-server`
