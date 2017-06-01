@@ -3,8 +3,10 @@
 - Linux Installation
 - Linux Permission overview and hands on
 - Linux Python Installation
-- Linux NFC
+- Linux NFS
+- Problem Tracking
 - Github basic and hands on
 - pyheader save as ~/.pyheader for vim auto insertion
 - kato.vimrc sample .vimrc file
 - Burmese
+- mooc 6001x\_syllabus - Mooc website, and syllabus of MIT python
