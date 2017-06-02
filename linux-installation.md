@@ -61,7 +61,16 @@ date is a key for security.
 ````
 
 # Customize and install necessary software
-National language support (Burmese), Chromium browser, vim-gtk, idle3, ssh server etc.
+1. Unlock unnecessary icons from Laucher
+1. vim-gtk `sudo apt install vim-gtk` (there are several version of vim, for Ubuntu 16.04 vim-gtk seems to be good)
+idle3
+1. ssh server `sudo apt install openssh-server` (ssh client is installed by default)
+1. nfs client `shdo apt install nfs-common`
+1. Chromium browser  `sudo apt install chromium-browser` (optional)
+1. National language support (Burmese)
+    1. **System setting** -> **Langueage support** -> (select Burmese if not Install)
+    1. **System setting** -> **Keyboard** -> *Text Input* -> '+' -> add Burmese
+    1. Change "Next source" and "Prev Source" as required
 
 # Filesystem Hierarchy Standard
 For detail, please search with above keyword.
