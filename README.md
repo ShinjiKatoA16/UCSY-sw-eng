@@ -10,3 +10,4 @@
 - kato.vimrc sample .vimrc file
 - Burmese
 - mooc 6001x\_syllabus - Mooc website, and syllabus of MIT python
+- python1 (1st simple program)
