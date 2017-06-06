@@ -52,6 +52,13 @@ Enter `print(1)` then enter. Python displays 1. Enter print('hello'). Python dis
 # Loop
 In the interactive shell, enter `help()` then check the usage of print, for, range.
 
+```
+for i in range(5):  # i <- 0,1,2,3,4
+    count = i+1           # block is defined by indent
+    print ('hello',count) # 1 block need to be same indent
+print ('good bye')  # this will be printed once
+```
+
 ## Write the program to show from 1 to 10 vertically
 
 ```
@@ -68,6 +75,7 @@ In the interactive shell, enter `help()` then check the usage of print, for, ran
 ```
 
 ## Write the program to show from 1 to 10 horizontally
+hint: 'end=' option of print()
 
 ```
     1 2 3 4 5 6 7 8 9 10
