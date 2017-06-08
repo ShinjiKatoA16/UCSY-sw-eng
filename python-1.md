@@ -49,15 +49,52 @@ Enter `print(1)` then enter. Python displays 1. Enter print('hello'). Python dis
     $ ./test1.py
 ```
 
-# Loop
-In the interactive shell, enter `help()` then check the usage of print, for, range.
+# Branch and Loop
+## if elif elif.... else
+Conditional branch can be written with if ... elif ... elif... else ...  
+elif and else are optional.
 
 ```
-for i in range(5):  # i <- 0,1,2,3,4
+if 1 > 2:
+    print ('1>2')
+    print ('if... shall never be executed')
+elif 1 == 2:
+    print ('1==2')
+    print ('elif1.. shall never be executed')
+elif 1 == 3:
+    print ('1==3')
+    print ('elif2.. shall never be executed')
+elif 1 == 1:
+    print ('1==1')
+    print ('elif3.. OK')
+else:
+    print ('else... shall never be executed')
+```
+
+## While Loop
+In the interactive shell, enter `help()` then check the usage of print, while
+
+```
+count = 0
+while i < 5:
     count = i+1           # block is defined by indent
     print ('hello',count) # 1 block need to be same indent
 print ('good bye')  # this will be printed once
 ```
+
+
+## For Loop
+In the interactive shell, enter `help()` then check the usage of  for, range.
+
+```
+for count in range(5):  # for count in (0,1,2,3,4)
+    print ('hello',count+1)
+print ('good bye')  # this will be printed once
+```
+
+
+# Programming hands on
+Use idle3 or text editor to edit program and execute.
 
 ## Write the program to show from 1 to 10 vertically
 
