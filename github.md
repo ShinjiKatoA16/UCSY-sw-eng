@@ -25,7 +25,9 @@
 1. If related modification is made, issue `git commit` command to confirm the change. Local commit can be easily restored, so it's not necessary to be so nervous.
 1. Test the code.
 1. issue `git push` command to synchronize the local and remote (github) repository.
-1. If file is updated on github, issue `git fetch` command to retrieve, and `git merge` to synchronize the local and remote (github) repository.
+1. If file is updated on github, issue `git fetch` command to retrieve, and `git merge origin/master` to synchronize the local and remote (github) repository.
+    + master  (local master repository)
+    + origin/master (copy of remote(github) master repository)
 1. Issue `git status` command to check update/STAGE, `git log`/`git reflog` command to check commit history.
 
 
