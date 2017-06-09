@@ -143,3 +143,6 @@ Save your programs in your github project.
 1. Execute `git status`
 1. Execute `git push`
 
+
+# Homework
+Please review your own code and think *What is important for good program?* and *How can it be improved?*
