@@ -10,9 +10,27 @@
 1. Linux apt command can not be executable because of lock June/6/2017
     - apt command sometimes fails with following message
 ```
+    $ sudo apt update
+    [sudo] password for kato: 
+    Reading package lists... Done
+    E: Could not get lock /var/lib/apt/lists/lock - open (11: Resource temporarily unavailable)
+    E: Unable to lock directory /var/lib/apt/lists/
 ```
     - It's because system update is executing background
         + background process can be killed manually
             - `ps ax | grep apt` commmand shows apt related process, last one isa grep command, so ignore that
-            - Terminate those process with kill command `kill -9 xxxx xxxx xxxx'
+```
+    $ ps ax | grep apt
+     2141 ?        SNl    0:00 /usr/bin/python3 /usr/sbin/aptd
+     2148 ?        SN     0:00 /usr/lib/apt/methods/http
+     2149 ?        SN     0:00 /usr/lib/apt/methods/http
+     2151 ?        SN     0:00 /usr/lib/apt/methods/gpgv
+     2289 pts/11   S+     0:00 grep --color=auto apt
+```
+            - Terminate those process with kill command `kill -9 xxxx xxxx xxxx`
+```
+    $ sudo kill -9 2141 2148 2149 2151 2297
+
+```
+            - Issue apt command again
         + background update can be disabled, but not recommended for non-experts.
