@@ -28,5 +28,12 @@ Please choose one of the below (not **BOTH!**)
 ## Shutdown time
 Shutdown time can be shortened by changing /etc/systemd/system.conf file.
 
+## Caps Lock -> Ctrl key
+Ctrl key is often used in Linux and VIM or other editors. Many programmers prefer to use Caps Lock to Ctrl.
+There are some keyboards that have Ctrl Key at left of 'A' key, for example, Happy Hacking Keyboard.
+
+## VIM
+VIM can be customized. There are many good .vimrc samples in internet.
+
 ## Homework
-If you find useful customization on the internet, please introduce it in Blog/SNS in Burmese.
+If you find useful customization on the internet, please try it and introduce in Blog/SNS in Burmese.
