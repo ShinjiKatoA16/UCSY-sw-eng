@@ -12,3 +12,4 @@
 - mooc 6001x\_syllabus - Mooc website, and syllabus of MIT python
 - python1 (1st simple program)
 - Ubuntu customization
+- python2 (Basic Data type)
