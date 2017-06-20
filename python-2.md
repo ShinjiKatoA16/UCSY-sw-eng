@@ -341,7 +341,7 @@ The built-in function len() returns the length of a string:
 
 ### Method
 
-String has many method. See <https://docs.python.org/3.1/library/stdtypes.html#string-methods> for detail.
+String has many method. See <https://docs.python.org/3.1/library/stdtypes.html#string-methods> for detail. (this document is in NFS directory. library.pdf)
 
 
 ```
