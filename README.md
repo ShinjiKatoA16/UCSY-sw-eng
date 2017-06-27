@@ -13,3 +13,4 @@
 - python1 (1st simple program)
 - Ubuntu customization
 - python2 (Basic Data type)
+- python3 (List, Tuple, Dictionary and Set)
