@@ -6,11 +6,12 @@
 - Linux NFS
 - Problem Tracking
 - Github basic and hands on
+- mooc 6001x\_syllabus - Mooc website, and syllabus of MIT python
+- Ubuntu customization
+- Burmese
 - pyheader save as ~/.pyheader for vim auto insertion
 - kato.vimrc sample .vimrc file
-- Burmese
-- mooc 6001x\_syllabus - Mooc website, and syllabus of MIT python
 - python1 (1st simple program)
-- Ubuntu customization
 - python2 (Basic Data type)
 - python3 (List, Tuple, Dictionary and Set)
+- python4 (Class, Function, Name space)
