@@ -1,7 +1,7 @@
 # I/O
 
 ## Oridinary File I/O
-Similar to fopen() in *C*, `open() close() read() write() seek()` are supported, except these function calls, `readline() readlines()` are supported.
+Similar to fopen() in *C*, `open() close() read() write() seek()` are supported, not only these function calls, `readline() readlines()` are also supported.
 Text file can be read using iterator, may be it is more common.
 
 ### open()
