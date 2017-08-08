@@ -15,3 +15,7 @@
 - python2 (Basic Data type)
 - python3 (List, Tuple, Dictionary and Set)
 - python4 (Class, Function, Name space)
+- python5 (I/O)
+- python6 (Library)
+- python7 (Exception)
+
