@@ -3,7 +3,7 @@
 ## try except else
 It's possible to capture and handle exception in Python program.
 If nothing is specified at except:, all exception is caught.
-else: statement is executed if exception is not detected in *try* block.
+else: statement is executed if exception is not detected in *try:* block.
 
 ```
     divider = input("Please enter divider ")
@@ -64,7 +64,7 @@ In general, it's better to specifiy which exception to be handle.
 ```
 
 ## assert and raise
-It's good practice to trap unexpected condition in the program. Python has assert and raise to force exception. Usage of them are similar, difference is that assert can specify condition and removed if compiled with optimization, so it is for debug purpose.
+It's good practice to trap unexpected condition in the program. Python has assert and raise to force exception. Usage of them are similar, difference is that assert can specify condition and removed if compiled with optimization, so it is purely for debug purpose.
 
 ```
     divider = input("Please enter divider ")
