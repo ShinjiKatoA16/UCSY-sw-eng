@@ -119,7 +119,7 @@ Program to write pickled data.
     
     list_data = [x for x in range(10)]
     print('list data:', list_data)
-    bin_data = pickle.dump(list_data, p_file)
+    pickle.dump(list_data, p_file)
     p_file.close()
 ```
 
