@@ -64,7 +64,7 @@ In general, it's better to specifiy which exception to be handle.
 ```
 
 ## assert and raise
-It's good practice to trap unexpected condition in the program. Python has assert and raise to force exception. Usage of them are similar, difference is that assert can specify condition and removed if compiled with optimization, so it is purely for debug purpose.
+It's good practice to trap unexpected condition in the program. Python has **assert** and **raise** to force exception. Usage of them are similar, difference is that **assert** can specify condition and removed if compiled with optimization, so it is purely for debug purpose.
 
 ```
     divider = input("Please enter divider ")
