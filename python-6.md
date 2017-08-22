@@ -1,6 +1,10 @@
-# Library
+# Package (Library)
 
-Python's base package does not contain *everything*, but has a lot of external libraries such as os, sys, math. Library can be imported using `import` command.
+Python's base package does not contain *everything*, but has a lot of external packages(library) such as os, sys, math. Packages can be imported using `import` command.
+
+- Library: General term
+- Package: Directory of Python script (Module contains `__path__` attribute)
+- Each Python script: Module
 
 ```
     >>> import math
@@ -46,7 +50,7 @@ If main routine starts with `if __name__ == '__main__':`, it is not executed if 
 # Numpy
 
 For detail, please read [Numpy overview](https://docs.scipy.org/doc/numpy/)  
-Numpy is a very important library in order to manipulate large array data. **ndarray** object is the core of the Numpy. Which is fixed size array of same data type. **ndarray** object has size and dimention, calculation of **ndarray** can be written simply.
+Numpy is a very important module in order to manipulate large array data. **ndarray** object is the core of the Numpy. Which is fixed size array of same data type. **ndarray** object has size and dimention, calculation of **ndarray** can be written simply.
 
 For example, if we need the result of multiply of 2 dimentional array. The code of *C* is like this one.
 
