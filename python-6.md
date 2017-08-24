@@ -4,7 +4,7 @@ Python's base package does not contain *everything*, but has a lot of external p
 
 - Library: General term
 - Package: Directory of Python script (Module contains `__path__` attribute)
-- Each Python script: Module
+- Module: Each Python script
 
 ```
     >>> import math
@@ -123,3 +123,56 @@ NumPy has built-in functions creating array from scratch.
     >>> np.linspace(1,4,6)
     array([ 1. ,  1.6,  2.2,  2.8,  3.4,  4. ])
 ```
+
+For 2 dimentional Numpy array, comma can be used to specify the element.
+
+```
+    >>> x = np.array([[1,2,3],[4,5,6]])
+    >>> x
+    array([[1, 2, 3],
+           [4, 5, 6]])
+    >>> x[1][1]
+    5
+    >>> x[1,1]
+    5
+```
+
+Boolean operation to Numpy array returns the Numpy array that contains True or False. The boolean array can be used to select elements from original Numpy array.
+
+```
+    >>> x = np.arange(10)
+    >>> x
+    array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+    >>> x > 5
+    array([False, False, False, False, False, False,  True,  True,  True,  True], dtype=bool)
+    >>> x[x>5]
+    array([6, 7, 8, 9])
+
+```
+
+Numpy array + Constant, Numpy array + Numpy array
+
+```
+>>> np_mat = np.array([[1,2], [3,4], [5,6]])
+>>> np_mat
+array([[1, 2],
+       [3, 4],
+       [5, 6]])
+>>> np_mat * 2
+array([[ 2,  4],
+       [ 6,  8],
+       [10, 12]])
+>>> np_mat + 10
+array([[11, 12],
+       [13, 14],
+       [15, 16]])
+>>> np_mat + np.array([10,20])
+array([[11, 22],
+       [13, 24],
+       [15, 26]])
+>>> np_mat + np_mat
+array([[ 2,  4],
+       [ 6,  8],
+       [10, 12]])
+```
+
