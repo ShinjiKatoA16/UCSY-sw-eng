@@ -19,4 +19,6 @@
 - python6 (Library)
 - python7 (Exception)
 - python8 (Iterator and Generator)
+- python9 (O notation)
+- python10 (Summary)
 
