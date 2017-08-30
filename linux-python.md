@@ -2,6 +2,11 @@
 Python2 and Python3 are included in Ubuntu desktop.
 
 # Installing Python package
+Python package such as numpy may not be installed in default Python package. There are several ways to install additional package.
+
+- Use Linux package management tool (apt). Each user do not need to install, but super user previledge is necessary
+- Use Python package management tool (PIP or CONDA). User can install different level of packages in each directory. Super user previledge is not necessary.
+
 Python packages such as numpy can be installed using PIP. It is installed in
 each user's environment, so sudo is not necessary.
 
@@ -12,6 +17,7 @@ each user's environment, so sudo is not necessary.
 # Installing development envrironment for Python
 * IDLE (IDLE3): light weight IDE (Integrated develoment environment), recommended for beginners.
 * Pycharm, Eclipse: heavy and feature rich IDE, may be JAVA programmers like these
+* Anaconda: All in package with Spyder IDE. Best choice for Windows user.
 * vim or emacs: Many professional programmers prefer either of these editors. Atom is becoming popular these days.
 
 I would like to recommend IDLE to beginners and VIM to advanced level. VIM or
