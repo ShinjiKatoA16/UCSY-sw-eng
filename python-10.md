@@ -67,3 +67,13 @@ Built-in data type of Python.
 ### mutable and immutable
 
 List, Dictionary and Set are mutable, other built-in data types are immutable.
+
+
+# Tutorial
+
+Official tutorial is a good text book for beginner. Not only official, but there are several documents including tutorial. *Python numpy Tutorial* by Stanford University covers Numpy usage.
+
+- [Python 3.6.2 Tutorial](https://docs.python.org/3/tutorial/)
+- [Python tutorial pdf](https://www.tutorialspoint.com/python3/python3_tutorial.pdf)
+- [Python Numpy Tutorial](http://cs231n.github.io/python-numpy-tutorial/)
+
