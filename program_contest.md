@@ -7,6 +7,8 @@ In 2015, 40,266 students from 2,736 universities in 102 countries participated.
 
 As for programming languages, [rule of the ICPC 2017](https://icpc.baylor.edu/regionals/rules) states that C/C++ and Java is to be used except World Finals.
 
+Programming environment (2018 World Final) is here. [ICPC programming Environment](https://icpc.baylor.edu/worldfinals/programming-environment)
+
 Some important rules from 2016 ICPC at UCSY as follows.
 
 - Each problem must be solved within 30 seconds (?)
