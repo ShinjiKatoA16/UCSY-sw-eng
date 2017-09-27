@@ -118,3 +118,20 @@ It can be written like following, but it's necessary to understand because Compr
 ```
 '(987-65)/(-2)' -> ['(', 987, '-', 65, ')', '/', '(', '-', 2, ')']
 ```
+
+
+Soloution of above practice is in str2token() function of prob_a.py in icpc2016ucsy project.
+Change the directory where you clone the icpc2016ucsy project and execute python3, you can import and verify the function
+
+
+```
+>>> import prob_a
+
+>>> s = '(310+14)'
+>>> prob_a.str2token(s)
+['(', '310', '+', '14', ')']
+
+>>> s = '((-6)+(7*2)/14))'
+>>> prob_a.str2token(s)
+['(', '(', '-', '6', ')', '+', '(', '7', '*', '2', ')', '/', '14', ')', ')']
+```
