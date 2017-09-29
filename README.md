@@ -21,4 +21,7 @@
 - python8 (Iterator and Generator)
 - python9 (O notation)
 - python10 (Summary)
+- python11 (Development Environment)
+- python12 (Review-1, Data conversion of int, str and list)
+- python13 (Debugging with pdb)
 
