@@ -106,14 +106,34 @@ It can be written like following, but it's necessary to understand because Compr
 
 ## Practice
 
-1. Convert following fomula strings to the lists of tokens.
+- Define a function that takes 1 integer as a input and returns lowest digit of the integer. e.g. input: 123456  output: 6 
+
+```
+def lowest_digit(n):
+    ...
+    return ...
+```
+
+- Define a function that takes 1 integer as a input and returns 2nd highest digit of the integer. e.g. input: 123456  output: 2 
+
+- Find the minimum ```2**n``` (n>1 integer) that contains 12345 (Hint: ... **in** ...)
+
+- Define a function that takes 1 integer(n) and returns a list of n None. e.g. Input: 3, Output: [None, None, None]
+```
+def n_none(n):
+    ...
+    return ...
+```
+
+
+- Convert following string of fomula to the lists of tokens.
 
 ```
 '(1+2)*(34+567)'  -> ['(', '1', '+', '2', ')', '*', '(', '34', '+', '567', ')']
 ```
 
 
-2. As above, convert numeric token to integer
+- As above, convert numeric token to integer
 
 ```
 '(987-65)/(-2)' -> ['(', 987, '-', 65, ')', '/', '(', '-', 2, ')']
