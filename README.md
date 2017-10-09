@@ -12,6 +12,7 @@
 - pyheader save as ~/.pyheader for vim auto insertion
 - kato.vimrc sample .vimrc file
 - python1 (1st simple program)
+- python1 (1st simple program Jupyter Notebook version)
 - python2 (Basic Data type)
 - python3 (List, Tuple, Dictionary and Set)
 - python4 (Class, Function, Name space)
