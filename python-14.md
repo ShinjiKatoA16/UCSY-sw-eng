@@ -2,13 +2,21 @@
 
 
 IPython is an enhanced interactive shell of Python. 
-It's better than default Python's shell in auto-completion, help and debugging. (but heavier = slower).
+It's better than default Python's shell in following areas. (but heavier = slower).
+
+- Can be executed(tested) and modified in Cell
+- Auto completion (keyword, variables, module names ...)
+- Checking object by adding *?* after object name
+- Magic command (%timeit measures execution time)
+- Shell command
+- Reuse of I/O, Input and Output are saved in the variable **In** and **Out**
+
 Please refer [IPython official document](http://ipython.readthedocs.io/en/stable/)
 
 jupyter is a web application server program. User can test IPython and write document (called notebook) on web browser.
-jupyter is told to be a good tool to study and documentation.
+jupyter is told to be a good tool for education and documentation.
 
-IPython and jupyter are included in Anaconda.
+IPython and jupyter are included in Anaconda. (also it's possible to install using pip or apt command)
 
 In order to user jupyter, enter
 ```
