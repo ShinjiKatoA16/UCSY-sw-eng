@@ -41,7 +41,7 @@ export PATH=/home/kato/anaconda3/bin:$PATH
 ```
 $ source ~/pathconda
 ```
-will activate anaconda. If you want to always activate it, modify ~/.bashrc
+will activate anaconda. If you want to always activate it, modify ~/.profile or ~/.bashrc 
 
 
 ### jupyter notebook hands on
