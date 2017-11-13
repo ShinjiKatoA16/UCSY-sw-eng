@@ -11,4 +11,5 @@ NFS is a simple file sharing method. In the following example, 172.16.38.xx is a
 
 ## NFS client
 1. Install nfs-common. `sudo apt install nfs-common`
-1. Mount remote directory. `sudo mount -t nfs 172.16.38.19:/opt/nfs_dir /mnt`
+1. Mount remote directory. `sudo mount -t nfs 172.16.35.51:/home/share /mnt`
+1. Umount if it's not necessary any more. `sudo umount /mnt`
