@@ -39,9 +39,11 @@ In case of Windows, there are several programs that can do same.
 - USB power supply must be 1.2A minimum, 2.5A is recommended
 - In order to shut down, use GUI menu or ```$sudo poweroff```
 
-## Avahi
+## Avahi and SSH
 
 With Avahi service, raspberry Pi can be accessed with hostname instead of IP address if both of server and client are connected to same router.
+
+Other computer (Linux, Windows) can access Raspberry-pi via SSH, if SSH is enabled.
 
 - Check current hostname (default: raspberrypi)
 
@@ -49,16 +51,25 @@ With Avahi service, raspberry Pi can be accessed with hostname instead of IP add
 $ hostname
 ```
 
-- Chane hostname. Edit /etc/hosts and /etc/hostname
+- Change hostname. Edit /etc/hosts and /etc/hostname
 
 ```
 $ sudo gedit /etc/hosts
 $ sudo gedit /etc/hostname
 ```
 
+- Enable SSH server on Raspberry Pi via raspi-config (GUI or CLI)
+
 - Reboot the system and check hostname again
 
 ```
 $ sudo reboot
 $ hostname
+```
+
+- Check if Raspberry-Pi can be accessed using hostname (From other machine)
+
+```
+$ ping raspberry-pi's-new-hostname
+$ ssh pi@raspberry-pi's-new-hostname
 ```
