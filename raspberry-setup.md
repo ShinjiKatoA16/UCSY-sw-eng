@@ -6,9 +6,11 @@
 2. Unpack yyyy-mm-dd-raspbian-stretch.zip. Use 7zip if your unzip program does not work. (Original zip/unzip program can not handle file size > 4GB)
 3. Prepare micro SD memory card 16GB or bigger (up to 32GB is supported ?).
 4. Attach the SD card to PC (using adapter)
+5. In case of Linux, check the device name (/dev/sd?) of the SD card (which is mounted to /media/user-name/... in case of Ubuntu) using `df` command. 
 5. In case of Linux, execute following commands. /dev/sdb can be /dev/sdc or /dev/sdd ... depending on your configuration
 
 ```
+$df
 $sudo umount /dev/sdb1
 $sudo dd if=2017-09-07-raspbian-stretch.img of=/dev/sdb bs=1M status=progress
 ```
